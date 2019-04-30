@@ -7,9 +7,6 @@ import Search
 import openpyxl
 import translation
 
-access_token = os.environ["BOT_TOKEN"]
-TOKEN = aceess_token
-
 client = commands.Bot(command_prefix = '.')
 
 @client.event
@@ -345,4 +342,5 @@ async def on_message(message):
         Tier_embed = Crawling.Get_supTier(embed)
         await client.send_message(message.channel, embed=Tier_embed)
 
-client.run(TOKEN)
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
