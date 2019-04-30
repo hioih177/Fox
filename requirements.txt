@@ -1,9 +1,4 @@
 discord.py==0.16.12
-commands.py==0.16.12
-openpyxl.py==0.16.12
-urlopen.py==0.16.12
-Request.py==0.16.12
-urllib.py==0.16.12
-bs4.py==0.16.12
-BeautifulSoup.py==0.16.12
-random.py==0.16.12
+openpyxl==2.5.12
+bs4.py==0.0.1
+
