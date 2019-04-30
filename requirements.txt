@@ -1,4 +1,4 @@
 discord.py==0.16.12
 openpyxl==2.5.12
-bs4.py==0.0.1
+bs4==0.0.1
 
