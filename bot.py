@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 import Randomize
 import Crawling
@@ -6,7 +7,8 @@ import Search
 import openpyxl
 import translation
 
-TOKEN = 'NTI1MDQyMTQyOTU2MjI0NTEy.Dv0u8w.j898gkHdpl1dzT_akFAKxWECqW8'
+access_token = os.environ["BOT_TOKEN"]
+TOKEN = aceess_token
 
 client = commands.Bot(command_prefix = '.')
 
