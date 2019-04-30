@@ -1,0 +1,9 @@
+discord.py==3.6.5
+commands.py==3.6.5
+openpyxl.py==3.6.5
+urlopen.py==3.6.5
+Request.py==3.6.5
+urllib.py==3.6.5
+bs4.py==3.6.5
+BeautifulSoup.py==3.6.5
+random.py==3.6.5
